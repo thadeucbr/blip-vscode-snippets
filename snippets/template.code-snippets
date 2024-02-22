@@ -1,0 +1,23 @@
+{
+  "Template Component Snippet": {
+      "prefix": "template",
+      "body": [
+          "function run() {",
+          "  const namespace_id = \"namespace_id\";",
+          "  const template_name = \"template_name\";",
+          "  return {",
+          "      \"type\": \"template\",",
+          "      \"template\": {",
+          "          \"namespace\": namespace_id,",
+          "          \"name\": template_name,",
+          "          \"language\": {",
+          "              \"policy\": \"deterministic\",",
+          "              \"code\": \"pt_BR\"",
+          "          }",
+          "      }",
+          "  }",
+          "}"
+      ],
+      "description": "Snippet para a criação rápida de um componente de template"
+  }
+}
