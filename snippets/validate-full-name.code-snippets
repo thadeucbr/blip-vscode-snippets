@@ -1,0 +1,37 @@
+{
+  "FullNameValidationSnippet": {
+      "prefix": "blip-validate-full-name",
+      "body": [
+          "function run(name) {",
+          "  // Set the invalid name message",
+          "  const invalidName = false;",
+          "",
+          "  // Check if the name has at least two words",
+          "  if (name.split(' ').length < 2) {",
+          "      return invalidName;",
+          "  }",
+          "",
+          "  // Check if the name contains numbers",
+          "  if (/\\d/.test(name)) {",
+          "      return invalidName;",
+          "  }",
+          "",
+          "  // Check if the same character is not repeated multiple times",
+          "  let parts = name.split(' ');",
+          "  for (let i = 0; i < parts.length; i++) {",
+          "      if (/^(.)\\1+$/.test(parts[i])) {",
+          "          return invalidName;",
+          "      }",
+          "  }",
+          "",
+          "  // Format the name correctly",
+          "  let formattedName = name.toLowerCase().split(' ').map(function(word) {",
+          "      return word.charAt(0).toUpperCase() + word.slice(1);",
+          "  }).join(' ');",
+          "",
+          "  return formattedName;",
+          "}"
+      ],
+      "description": "Snippet para validar se o usuário digitou corretamente o nome completo"
+  }
+}
