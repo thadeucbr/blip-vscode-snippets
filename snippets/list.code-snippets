@@ -1,5 +1,5 @@
 {
-  "ListComponentSnippet": {
+  "List Component": {
       "prefix": "blip-list",
       "body": [
           "function run(params) {",
