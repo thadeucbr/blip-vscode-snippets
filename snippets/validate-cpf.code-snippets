@@ -1,5 +1,5 @@
 {
-  "CPFValidationSnippet": {
+  "CPF Validation": {
       "prefix": "blip-validate-cpf",
       "body": [
           "function run(cpf) {",
