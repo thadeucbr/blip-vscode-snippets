@@ -8,7 +8,7 @@ This extension includes snippets for various functions:
 - ```blip-quickreply```: A snippet for quick reply functionality.
 - ```blip-template```: A snippet for creating a template.
 - ```blip-validate-cep```: A snippet for validating Brazilian postal codes (CEP).
-- ```blip-validate-cnpj-and-format```: A snippet for validating and formatting Brazilian - ```corporate taxpayer registry IDs (CNPJ).
+- ```blip-validate-cnpj-and-format```: A snippet for validating and formatting Brazilian - corporate taxpayer registry IDs (CNPJ).
 - ```blip-validate-cnpj```: A snippet for validating CNPJ.
 - ```blip-validate-cpf-and-format```: A snippet for validating and formatting Brazilian individual taxpayer registry IDs (CPF).
 - ```blip-validate-cpf```: A snippet for validating CPF.
@@ -27,7 +27,7 @@ This extension does not contribute any settings through the contributes.configur
 There are no known issues at the moment. If you encounter any problems, please report them on the issue tracker.
 
 ### Release Notes
-#### [Unreleased]
+#### [1.0.0] - 22/02/2024
 #### Added
 
 - New snippets for various functions (see Features section for details).
