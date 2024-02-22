@@ -1,0 +1,20 @@
+{
+  "name": "blip-snippets",
+  "displayName": "Blip Snippets",
+  "description": "Acelere o desenvolvimento de scripts de ação no Builder com a extensão “Snippets para Action Scripts do Builder”. Com snippets pré-definidos para funções comuns, você pode gerar rapidamente códigos, economizando tempo e minimizando erros. Ideal para quem busca produtividade e eficiência.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
