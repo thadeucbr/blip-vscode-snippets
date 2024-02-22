@@ -1,5 +1,5 @@
 {
-  "FullNameValidationSnippet": {
+  "Full Name Validation": {
       "prefix": "blip-validate-full-name",
       "body": [
           "function run(name) {",
