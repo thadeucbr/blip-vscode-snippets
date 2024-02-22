@@ -13,7 +13,43 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/list.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/quickreply.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/template.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-cep.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-cnpj-and-format.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-cnpj.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-cpf-and-format.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-cpf.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-email.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-full-name.code-snippets"
       }
     ]
   }
