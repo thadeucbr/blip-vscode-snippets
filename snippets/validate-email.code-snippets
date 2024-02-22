@@ -1,0 +1,17 @@
+{
+  "Validate Email": {
+    "prefix": "blip-validate-email",
+    "body": [
+      "function run(email) {",
+      "  const invalidEmailMessage = false",
+      "  try {",
+      "    var re = /^(([^<>()\\[\\]\\\\.,;:\\s@\\\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;",
+      "    return re.test(String(email).toLowerCase()) ? email : invalidEmailMessage;",
+      "  } catch (erro) {",
+      "    return invalidEmailMessage;",
+      "  }",
+      "}"
+    ],
+    "description": "Valida o email digitado pelo usuário"
+  }
+}
