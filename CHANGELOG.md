@@ -12,6 +12,7 @@
   - `blip-validate-cpf`: A snippet for validating CPF.
   - `blip-validate-email`: A snippet for validating email addresses.
   - `blip-validate-full-name`: A snippet for validating full names.
+  - `blip-validate-user-input`: A snippet for validating user input against a dictionary of regex patterns
 
 ## [0.0.1] - 22/02/2024
 
