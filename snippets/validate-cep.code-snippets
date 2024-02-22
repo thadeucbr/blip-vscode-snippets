@@ -1,0 +1,22 @@
+{
+  "Validate CEP": {
+    "prefix": "blip-validate-cep",
+    "body": [
+      "function run(cep) {",
+      "  const invalidCEPmessage = false",
+      "  try {",
+      "    let cleanedCEP = cep.replace(/\\D/g, '');",
+      "",
+      "    if (cleanedCEP.length === 8) {",
+      "      return cleanedCEP;",
+      "    } else {",
+      "      return invalidCEPmessage;",
+      "    }",
+      "  } catch (error) {",
+      "    return invalidCEPmessage;",
+      "  }",
+      "}"
+    ],
+    "description": "Valida o CEP digitado pelo usuário"
+  }
+}
