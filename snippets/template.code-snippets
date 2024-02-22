@@ -1,6 +1,6 @@
 {
   "Template Component Snippet": {
-      "prefix": "template",
+      "prefix": "blip-template",
       "body": [
           "function run() {",
           "  const namespace_id = \"namespace_id\";",
