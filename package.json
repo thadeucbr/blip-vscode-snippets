@@ -50,6 +50,10 @@
       {
         "language": "javascript",
         "path": "./snippets/validate-full-name.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/validate-user-input.code-snippets"
       }
     ]
   }

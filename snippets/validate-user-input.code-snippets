@@ -1,0 +1,25 @@
+{
+  "Validate User Input": {
+    "prefix": "blip-validate-user-input",
+    "body": [
+      "function run(inputUsuario) {",
+      "  const invalidInputMessage = false",
+      "  try {",
+      "    const regexDictionary = {",
+      "      \"^abc$\": \"Entrada válida\",",
+      "      \"^123$\": \"Número válido\"",
+      "    }",
+      "    for (let regex in regexDictionary) {",
+      "      if (new RegExp(regex).test(inputUsuario)) {",
+      "        return regexDictionary[regex]",
+      "      }",
+      "    }",
+      "    return invalidInputMessage",
+      "  } catch (err) {",
+      "    return invalidInputMessage",
+      "  }",
+      "}"
+    ],
+    "description": "Validate user input against a dictionary of regex patterns"
+  }
+}
