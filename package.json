@@ -2,9 +2,9 @@
   "name": "blip-snippets",
   "displayName": "Blip Snippets",
   "description": "Acelere o desenvolvimento de scripts de ação no Builder com a extensão “Snippets para Action Scripts do Builder”. Com snippets pré-definidos para funções comuns, você pode gerar rapidamente códigos, economizando tempo e minimizando erros. Ideal para quem busca produtividade e eficiência.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "Thadeu Castelo Branco Ramos",
-  "icon": "",
+  "icon": "./assets/images/favicon.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/thadeucbr/blip-vscode-snippets"},
