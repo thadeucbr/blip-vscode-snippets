@@ -1,4 +1,4 @@
-## [Unreleased]
+## [1.0.0] - 22/02/204
 
 ### Added
 - New snippets for various functions:
