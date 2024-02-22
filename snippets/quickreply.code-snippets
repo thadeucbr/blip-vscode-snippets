@@ -1,5 +1,5 @@
 {
-  "QuickReplySnippet": {
+  "Quick Reply": {
       "prefix": "blip-quickreply",
       "body": [
           "function run(params) {",
